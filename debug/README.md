@@ -51,3 +51,12 @@ function workb() {
 workb();
 ```
 
+## 在Express中使用DEBUG
+To see all the internal logs used in Express, set the DEBUG environment variable to express:* when launching your app.
+
+```shell
+$ DEBUG=express:* node index.js
+```
+
+To see the logs only from the router implementation set the value of DEBUG to express:router. Likewise, to see logs only from the application implementation set the value of DEBUG to express:application, and so on.
+
