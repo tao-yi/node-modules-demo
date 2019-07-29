@@ -11,8 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "config": "^3.2.2",
     "debug": "^4.1.1",
     "express": "^4.17.1",
-    "ilog": "^1.2.3"
+    "file-stream-rotator": "^0.4.1",
+    "ilog": "^1.2.3",
+    "morgan": "^1.9.1",
+    "node-uuid": "^1.4.8",
+    "requiredir": "^1.0.7"
   }
 }

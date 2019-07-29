@@ -7,7 +7,7 @@ This will allow you to toggle the debug output for different parts of your modul
 as well as the module as a whole.
  */
 
-// 可以使用BEBUG环境变量来控制输出的日志
+// 可以使用DEBUG环境变量来控制输出的日志
 // DEBUG=http node index.js
 // DEBUG=worker:a node index.js
 // DEBUG=worker:b node index.js
