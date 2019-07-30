@@ -18,6 +18,9 @@
     "ilog": "^1.2.3",
     "morgan": "^1.9.1",
     "node-uuid": "^1.4.8",
+    "pluralize": "^8.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
     "requiredir": "^1.0.7"
   }
 }
